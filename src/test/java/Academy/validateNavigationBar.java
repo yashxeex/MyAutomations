@@ -31,10 +31,7 @@ public void basePageNavigation() throws IOException {
 	 
 	LandingPage L=new LandingPage(driver);
 	Assert.assertTrue(L.getNavBar().isDisplayed());
-	System.out.println("Testing GIT");
-	System.out.println("Testing GIT");
-	System.out.println("Testing GIT");
-	System.out.println("Testing GIT");
+	
 	
 	
 	
