@@ -23,6 +23,7 @@ public class validateNavigationBar extends base {
 	public void initialize() throws IOException { 
 		driver=initializeDriver();
 		driver.get("http://www.qaclickacademy.com/");
+		
 	}	
 	
 @Test
@@ -30,6 +31,10 @@ public void basePageNavigation() throws IOException {
 	 
 	LandingPage L=new LandingPage(driver);
 	Assert.assertTrue(L.getNavBar().isDisplayed());
+	System.out.println("Testing GIT");
+	System.out.println("Testing GIT");
+	System.out.println("Testing GIT");
+	System.out.println("Testing GIT");
 	
 	
 	
