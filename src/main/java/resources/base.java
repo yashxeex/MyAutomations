@@ -31,7 +31,7 @@ public class base {
 		if(browserName.equals("chrome")) { 
 			
 			System.setProperty("webdriver.chrome.driver", "//Users//yashrajpal//Desktop//chromedriver");
-			
+			 
 			driver=new ChromeDriver();
 			
 			

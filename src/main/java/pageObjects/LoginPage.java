@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
-
+	
 WebDriver driver;	
 	
 By email = By.cssSelector("input#user_email");
@@ -28,10 +28,6 @@ public WebElement getLogin() {
 	
 	return driver.findElement(Login);
 }
-
-
-
-
 
 
 
