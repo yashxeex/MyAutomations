@@ -27,6 +27,8 @@ public void initialize() throws IOException {
 	
 }
 
+
+//DataProvider
 @Test(dataProvider="getData")
 public void basePageNavigation(String username, String password) throws IOException { 
 	 
